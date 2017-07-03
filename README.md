@@ -1,17 +1,17 @@
-#Movie Trailer Website
+# Movie Trailer Website
 
 This project dynamically generates an HTML file for a movie trailer website using a Python data structure.  The website displays the movie title and box art.  The movie trailer will play once the box art is clicked. 
 
-##Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-###Prerequisites
+### Prerequisites
 
 - Python 2.7
 - Download source code `entertainment_center.py`, `fresh_tomatoes.py`, and `media.py` and save all three to a single folder on your local machine.  The source code can be found [here](https://github.com/JakeTux8/Movie-Trailer-Website.git)
 
-###Creating Webpage 
+### Creating Webpage 
 
 To create the HTML file for the web page, do the following:
 
@@ -22,7 +22,7 @@ To create the HTML file for the web page, do the following:
 
 &emsp; &emsp; &emsp; - **Note**: The movie objects and array in the entertainment_center.py module can be modified as needed.
 
-###Modules
+### Modules
 
 The **`media.py`** module contains the Movie class.  The Movie class has 5 attributes:  4 object variables and 1 class method. 
 ```
@@ -48,6 +48,6 @@ The **`fresh_tomatoes.py`** module takes an array of Movie objects as an argumen
  The **`entertainment_center.py`** is where the Movie objects are created.  The an array of the Movie objects are created, and then passed to the `fresh_tomatoes.py` module to create the movie trailer website HTML file and open the file in the local machine's default web browser.
  
 
-##Acknowledgements
+## Acknowledgements
 
 The code for the `fresh_tomatoes.py` module was provided by the awesome staff at Udacity.  Thanks for the help guys! 
