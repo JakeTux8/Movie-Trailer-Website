@@ -67,7 +67,8 @@ shawshank = media.Movie(
     "https://www.youtube.com/watch?v=NmzuHjWmXOc")
 
 # create movie array
-movies = [hangover, get_out, the_prestige, the_illusionist, o_brother, shawshank]  # noqa
+movies = [hangover, get_out, the_prestige, the_illusionist, o_brother,
+          shawshank]
 
 # create HTML file with movies
 fresh_tomatoes.open_movies_page(movies)
